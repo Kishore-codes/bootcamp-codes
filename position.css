@@ -1,0 +1,44 @@
+.model{
+    background-color: grey;
+    width: 80%;
+    height: 200px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.box{
+    padding: 10px;
+    /* width: 60%; */
+}
+.box1{
+    background-color:orange;
+    /* top: 5rem; */
+}
+
+.box2{
+    background-color:blue;
+    position: absolute;
+    width: 45%;
+ top:0px
+}
+
+.box3{
+    background-color:green;
+}
+
+.roll{
+    width: 200px;;
+    height:100px;
+    text-align: center;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    /* transform: rotate(90deg); */
+    /* transform: scale(2); */
+    /* transform: translate(300px); */
+    /* transform: skewX(40deg); */
+    transform: translateY(30%) scale(1.5) skewX(-40deg);
+}
